@@ -1,0 +1,55 @@
+<Doctype! html>
+<html>
+<link rel="stylesheet" href="bootstrap.min.css">
+ <link rel="stylesheet" href="css.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="cycle2.js"></script>
+	
+	<body>
+	
+	<div id="java">
+			<p>Student Grading System</p>
+		</div>
+		<ul class="pbs" style="margin-left:7%;list-style:none;">
+			<label style="margin-left:-5%;">Module</label<br>
+			<li>Login</li>
+			<li>Admin</li>
+			<li>Viewing Grades</li>
+			<li>Teacher Module</li>
+			<hr style="border-color:black;">
+			<li>Description <br> Student Grading System made by java swing,include features are crud, grading , allow user to login and logout and student can view also their grades</li>
+		</ul>
+	<div id="container">
+		<div id="slideshow" class="cycle-slideshow"
+		data-cycle-fx = "fade"
+		data-cycle-speed = "600"
+		data-cycle-timeout = "0"
+		data-cycle-pager = "#pager"
+		data-cycle-pager-template ="<a herf='#'><img src='{{src}}' height=100 width=150/>"
+		data-cycle-next = "#next"
+		data-cycle-prev = "#prev"
+		data-cycle-manual-fx = "scrollHorz"
+		data-cycle-manual-speed = "400"
+		data-cycle-pager-fx = "fade">
+        <img src="javalogin.png" alt="">
+        <img src="javaadmin.png" alt="">
+		 <img src="javaadmin1.png" alt="">
+        <img src="javauser.png" alt="">
+        <img src="javadisplay.png" alt="">
+		 <img src="javaUpdategrade.png" alt="">
+    </div>
+    <div id="pager"></div>
+    <img id="prev" src="prev1.svg"/>
+    <img id="next" src="next1.svg"/>
+</div>
+<a href="index.html"><input type="button" name="Back" value="Back"></a></input>
+	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script type="text/javascript">
+		$("#java").fitText();
+		$("ul").fitText(1.2, { minFontSize: '8px', maxFontSize: '25px' });
+	</script>
+</html>
